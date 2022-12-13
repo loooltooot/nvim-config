@@ -7,6 +7,7 @@
 :set autoindent
 :set smarttab
 :set smartindent
+:set clipboard+=unnamedplus
 
 call plug#begin()
 
