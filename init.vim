@@ -8,6 +8,10 @@
 :set smarttab
 :set smartindent
 :set clipboard+=unnamedplus
+let g:neovide_transparency=0.9
+let g:neovide_cursor_animation_length=0.1
+let g:neovide_cursor_trail_size=0.3
+let g:airline_theme='dark_minimal'
 
 call plug#begin()
 
@@ -25,6 +29,8 @@ Plug 'https://github.com/neoclide/coc.nvim'
 Plug 'https://github.com/neovim/nvim-lspconfig'
 Plug 'https://github.com/mattn/emmet-vim'
 Plug 'https://github.com/jiangmiao/auto-pairs'
+Plug 'https://github.com/vim-airline/vim-airline-themes'
+
 
 call plug#end()
 
