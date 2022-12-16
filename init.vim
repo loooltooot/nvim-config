@@ -11,7 +11,7 @@
 let g:neovide_transparency=0.9
 let g:neovide_cursor_animation_length=0.1
 let g:neovide_cursor_trail_size=0.3
-let g:airline_theme='dark_minimal'
+let g:airline_theme='base16_black_metal_dark_funeral'
 
 call plug#begin()
 
@@ -36,7 +36,7 @@ call plug#end()
 
 :set completeopt-=preview
 
-source ~/.local/share/nvim/plugged/awesome-vim-colorschemes/colors/purify.vim
+source ~/.local/share/nvim/plugged/awesome-vim-colorschemes/colors/256_noir.vim
 
 set nobackup
 set nowritebackup
